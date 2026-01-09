@@ -51,8 +51,15 @@ Chaque ligne du fichier contient :
 
 ## 5. Compilation et exécution
 
-### Compilation
+### Compilation 
 ```bash
-mpicxx -fopenmp main.cpp -o main
+mpicxx -fopenmp main.cpp -o main 
+```
+
+### Execution
+```bash
+mpirun -np 4 ./main
+```
+
 
 
